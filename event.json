@@ -1,9 +1,0 @@
-{
-  "bucketName": "${BUCKET_NAME}",
-  "logGroupList": [
-    "${LOG_GROUP_NAME1}",
-    "${LOG_GROUP_NAME2}",
-    "${LOG_GROUP_NAME3}"
-  ],
-  "prefix": "${PREFIX}"
-}

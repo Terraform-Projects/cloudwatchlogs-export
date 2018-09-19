@@ -1,0 +1,14 @@
+{
+    "FunctionName": "cloudwatchlogs-export",
+    "Runtime": "nodejs8.10",
+    "Role": "YOUR_IAM_ROLE_ARN",
+    "Handler": "index.handler",
+    "Timeout": 30,
+    "MemorySize": 128,
+    "Publish": true,
+    "Environment": {
+        "Variables": {
+            "LOG_LEVEL": "DEBUG"
+        }
+    }
+}
